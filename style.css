@@ -1,0 +1,43 @@
+body {
+    background-color: #f0e68c;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #d4c300;
+}
+
+p {
+    margin: 10px 0;
+}
+
+p:last-child {
+    font-style: italic;
+}
+
+p:nth-child(2) {
+    font-weight: bold;
+}
+
+p:nth-child(3) {
+    text-decoration: underline;
+}
+
+p:nth-child(4) {
+    font-size: 1.2em;
+}
+
+p:nth-child(5) {
+    color: #ff6347;
+}
+
+p:nth-child(6) {
+    font-size: 1.5em;
+}
+
+p:nth-child(n+7) {
+    font-size: 1.2em;
+}
